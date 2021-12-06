@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:\Users\Admin\Desktop\HTML5-Form_Input_Fields\CSS\style.css">
+    <title>Registration Form</title>
+</head>
+<body>
+    <form>
+        <header class="headerContainer">
+            <h1>HTML5 Form Input Fields</h1>
+        </header>
+        <div>
+            <label for="text">First Name : </label>
+            <input type="text" id="text" name="text" required>
+            <error-output class="text-error" for="text"></error-output>
+        </div>
+
+        <div>
+            <label for="email">Email : </label>
+            <input type="email" id="email" name="email" required>
+            <error-output class="email-error" for="email"></error-output>
+        </div>
+
+        <div>
+            <label for="phone">Phone Number : </label>
+            <input type="tel" id="phone" name="phone" required>
+            <error-output class="phone-error" for="phone"></error-output>
+        </div>
+
+        <div>
+            <label for="password">Password : </label>
+            <input type="password" name="password" id="password" required>
+            <error-output class="password-error" for="text"></error-output>
+        </div>
+
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+    <script src="C:\Users\Admin\Desktop\HTML5-Form_Input_Fields\JS\form.js"></script>
+</body>
+</html>
